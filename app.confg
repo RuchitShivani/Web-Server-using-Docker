@@ -1,0 +1,9 @@
+server {
+    listen 8181;
+    server_name mycustomserver.local;
+
+    location / {
+        root /usr/share/nginx/html;
+        index home.html;
+    }
+}
